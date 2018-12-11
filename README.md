@@ -1,7 +1,3 @@
-# toolbox_nuxt
-
-> Toolbox with nuxt
-
 ## Build Setup
 
 ``` bash

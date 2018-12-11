@@ -28,8 +28,8 @@ export default {
     data() {
         return {
             form: {
-                name: 'site392',
-                password: 'site392',
+                name: '',
+                password: '',
             },
             show: true,
             errorMessage: ""
@@ -47,10 +47,10 @@ export default {
         async onSubmit(evt) {
             let newSessionid = null
             try {
-                const data = await axios.post("https://tom.pfdfoods.com.au/WDFFS/rest/WDFFSService/trkLogin", {
+                const data = await axios.post("https:test.com", {
                     request: {
                         SessionID: null,
-                        User_ID: "site392",
+                        User_ID: this.form.name,
                         Password: this.form.password,
                         EventType: "APILogin"
                     }

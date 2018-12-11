@@ -55,5 +55,5 @@ export const css = ["~/assets/global.scss"];
 export const plugins = ["~/plugins/vuelidate.js", "~/plugins/element-ui.js",{src: '~/plugins/localstorage.js', ssr: false} ];
 export const build = {};
 export const modules = ["@nuxtjs/axios", "~/modules/typescript.js", "bootstrap-vue/nuxt"];
-export const axios = { baseURL:"https://tom.pfdfoods.com.au/WDFFS/rest/WDFFSService" };
+export const axios = { baseURL:"testhttp" };
 // export const serverMiddleware = ['~/api/logger'];
